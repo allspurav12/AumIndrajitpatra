@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUM Express</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.ibb.co/JWYsfYbd/IMG-8867.png" alt="AUM Express Logo" class="logo">
+        <form id="locationForm">
+            <div class="input-group">
+                <label for="pinCode">Pin Code</label>
+                <input type="text" id="pinCode" placeholder="Pin Code" oninput="fetchLocation()">
+            </div>
+            <div class="input-group">
+                <label for="place">Place</label>
+                <input type="text" id="place" placeholder="Place" oninput="fetchPinCode()">
+            </div>
+            <button type="button" onclick="submitForm()">Login</button>
+            <a href="#" class="forgot">Forgot Password?</a>
+        </form>
+        <p>© Copyright 2020 Sagar Informatics Pvt. Ltd. (SIPL). All rights reserved.</p>
+        <p>Powered By: Sagar Informatics Pvt Ltd.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
